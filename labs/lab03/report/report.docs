@@ -1,0 +1,114 @@
+<h1 id="цель-работы">Цель работы</h1>
+<p>Целью работы является освоение процедуры оформления отчетов с помощью легковесного языка разметки Markdown.</p>
+<h1 id="задание">Задание</h1>
+<ol type="1">
+<li><p>Откройте терминал</p></li>
+<li><p>Перейдите в каталог курса сформированный при выполнении лабораторной работы No3:</p></li>
+</ol>
+<p><strong>cd ~/work/study/2022-2023/“Архитектура компьютера”/arch-pc/</strong></p>
+<p>Обновите локальный репозиторий, скачав изменения из удаленного репозитория с помощью команды</p>
+<p><strong>git pull</strong></p>
+<ol start="3" type="1">
+<li>Перейдите в каталог с шаблоном отчета по лабораторной работе No4</li>
+</ol>
+<p><strong>cd ~/work/study/2022-2023/“Архитектура компьютера”/arch-pc/labs/lab04/report</strong></p>
+<ol start="4" type="1">
+<li>Проведите компиляцию шаблона с использованием Makefile. Для этого введите команду</li>
+</ol>
+<p><strong>make</strong></p>
+<p>При успешной компиляции должны сгенерироваться файлы report.pdf и report.docx. Откройте и проверьте корректность полученных файлов.</p>
+<ol start="5" type="1">
+<li>Удалите полученный файлы с использованием Makefile. Для этого введите команду</li>
+</ol>
+<p><strong>make clean</strong></p>
+<p>Проверьте, что после этой команды файлы report.pdf и report.docx были удалены.</p>
+<ol start="6" type="1">
+<li>Откройте файл report.md c помощью любого текстового редактора, например gedit</li>
+</ol>
+<p><strong>gedit report.md</strong></p>
+<p>Внимательно изучите структуру этого файла.</p>
+<ol start="7" type="1">
+<li><p>Заполните отчет и скомпилируйте отчет с использованием Makefile. Проверьте корректность полученных файлов. (Обратите внимание, для корректного отображения скриншотов они должны быть размещены в каталоге image)</p></li>
+<li><p>Загрузите файлы на Github.</p></li>
+</ol>
+<p><strong>cd ~/work/study/2022-2023/“Архитектура компьютера”/arch-pc</strong> <strong>git add .</strong> <strong>git commit -am ‘feat(main): add files lab-4’</strong> <strong>git push</strong></p>
+<h1 id="задание-для-самостоятельной-работы">Задание для самостоятельной работы</h1>
+<ol type="1">
+<li><p>В соответствующем каталоге сделайте отчёт по лабораторной работе No3 в формате Markdown. В качестве отчёта необходимо предоставить отчёты в 3 форматах: pdf, docx и md.</p></li>
+<li><p>Загрузите файлы на github</p></li>
+</ol>
+<h1 id="выполнение-лабораторной-работы">Выполнение лабораторной работы</h1>
+<ol type="1">
+<li>Открываю терминал. (рис. <span class="citation" data-cites="fig:001">[-@fig:001]</span>)</li>
+</ol>
+<figure>
+<img src="image/1.png" id="fig:001" style="width:70.0%" alt="Терминал" /><figcaption aria-hidden="true">Терминал</figcaption>
+</figure>
+<ol start="2" type="1">
+<li>Перехожу в каталог курса сформированный при выполнении лабораторной работы No2:(рис. <span class="citation" data-cites="fig:002">[-@fig:002]</span>)</li>
+</ol>
+<figure>
+<img src="image/2.png" id="fig:002" style="width:70.0%" alt="Переход в каталог курса" /><figcaption aria-hidden="true">Переход в каталог курса</figcaption>
+</figure>
+<p>Обновляю локальный репозиторий, скачав изменения из удаленного репозитория с помощью команды <strong>git pull</strong> (рис. <span class="citation" data-cites="fig:003">[-@fig:003]</span>)</p>
+<figure>
+<img src="image/3.png" id="fig:003" style="width:70.0%" alt="git pull" /><figcaption aria-hidden="true">git pull</figcaption>
+</figure>
+<ol start="3" type="1">
+<li>Перехожу в каталог с шаблоном отчета по лабораторной работе No4. (рис. <span class="citation" data-cites="fig:004">[-@fig:004]</span>)</li>
+</ol>
+<figure>
+<img src="image/4.png" id="fig:004" style="width:70.0%" alt="Перехожу в каталог с шаблоном отчета" /><figcaption aria-hidden="true">Перехожу в каталог с шаблоном отчета</figcaption>
+</figure>
+<ol start="4" type="1">
+<li>Проведите компиляцию шаблона с использованием Makefile. Для этого введите команду <strong>make</strong>. При успешной компиляции должны сгенерироваться файлы report.pdf и report.docx. Откройте и проверьте корректность полученных файлов.(рис. <span class="citation" data-cites="fig:005">[-@fig:005]</span>)</li>
+</ol>
+<figure>
+<img src="image/5.png" id="fig:005" style="width:70.0%" alt="make" /><figcaption aria-hidden="true">make</figcaption>
+</figure>
+<ol start="5" type="1">
+<li>Удалите полученный файлы с использованием Makefile. Для этого введите команду <strong>make clean</strong> (рис. <span class="citation" data-cites="fig:006">[-@fig:006]</span>)</li>
+</ol>
+<figure>
+<img src="image/6.png" id="fig:006" style="width:70.0%" alt="make clean" /><figcaption aria-hidden="true">make clean</figcaption>
+</figure>
+<p>Проверьте, что после этой команды файлы report.pdf и report.docx были удалены.(рис. <span class="citation" data-cites="fig:007">[-@fig:007]</span>)</p>
+<figure>
+<img src="image/7.png" id="fig:007" style="width:70.0%" alt="report.pdf и report.docx удалены" /><figcaption aria-hidden="true">report.pdf и report.docx удалены</figcaption>
+</figure>
+<ol start="6" type="1">
+<li>Откройте файл report.md c помощью любого текстового редактора, например gedit <strong>gedit report.md</strong></li>
+</ol>
+<p>(рис. <span class="citation" data-cites="fig:008">[-@fig:008]</span>)</p>
+<figure>
+<img src="image/8.png" id="fig:008" style="width:70.0%" alt="gedit report.md" /><figcaption aria-hidden="true">gedit report.md</figcaption>
+</figure>
+<ol start="7" type="1">
+<li>Заполните отчет и скомпилируйте отчет с использованием Makefile. Проверьте корректность полученных файлов. (Обратите внимание, для корректного отображения скриншотов они должны быть размещены в каталоге image) (рис. <span class="citation" data-cites="fig:009">[-@fig:009]</span>)</li>
+</ol>
+<figure>
+<img src="image/9.png" id="fig:009" style="width:70.0%" alt="Заполнение отчета" /><figcaption aria-hidden="true">Заполнение отчета</figcaption>
+</figure>
+<ol start="8" type="1">
+<li>Загрузите файлы на Github.</li>
+</ol>
+<p><strong>cd ~/work/study/2022-2023/“Архитектура компьютера”/arch-pc</strong> <strong>git add .</strong> <strong>git commit -am ‘feat(main): add files lab-4’</strong> <strong>git push</strong></p>
+<p>(рис. <span class="citation" data-cites="fig:0010">[-@fig:0010]</span>)</p>
+<figure>
+<img src="image/10.png" id="fig:010" style="width:70.0%" alt="Загрузка файлов на Github" /><figcaption aria-hidden="true">Загрузка файлов на Github</figcaption>
+</figure>
+<h1 id="задание-для-самостоятельной-работы-1">Задание для самостоятельной работы</h1>
+<ol type="1">
+<li>В соответствующем каталоге сделайте отчёт по лабораторной работе No2 в формате Markdown. В качестве отчёта необходимо предоставить отчёты в 3 форматах: pdf, docx и md. (рис. <span class="citation" data-cites="fig:003">[-@fig:003]</span>)</li>
+</ol>
+<figure>
+<img src="image/11.png" id="fig:011" style="width:70.0%" alt="Отчёт ЛБ №2" /><figcaption aria-hidden="true">Отчёт ЛБ №2</figcaption>
+</figure>
+<ol start="2" type="1">
+<li>Загрузите файлы на github (рис. <span class="citation" data-cites="fig:003">[-@fig:003]</span>)</li>
+</ol>
+<figure>
+<img src="image/12.png" id="fig:012" style="width:70.0%" alt="Загрузка файлов на github" /><figcaption aria-hidden="true">Загрузка файлов на github</figcaption>
+</figure>
+<h1 id="выводы">Выводы</h1>
+<p>Я освоила процедуры оформления отчетов с помощью легковесного языка разметки Markdown. Создала необходимые отчеты.</p>
